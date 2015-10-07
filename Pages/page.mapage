@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?VersionInfo exeName="LegaSuite.exe" productName="lswb" exeVersion="1.0.0.201510040958" modelVersion="1.0" ?>
+<page>
+   <id>page</id>
+   <title style="">${App.ApplicationTitle}</title>
+   <controls>
+      <TabBar>
+         <id>TabBar1</id>
+         <position>Top</position>
+         <controls>
+            <Button>
+               <id>Button1</id>
+               <label>Blog</label>
+               <show>Label</show>
+               <customCssClass>tabbar__button</customCssClass>
+               <textColor>25</textColor>
+            </Button>
+            <Button>
+               <id>Button2</id>
+               <label>Work</label>
+               <show>Label</show>
+               <customCssClass>tabbar__button</customCssClass>
+               <textColor>25</textColor>
+            </Button>
+            <Button>
+               <id>Button3</id>
+               <label>Travel</label>
+               <show>Label</show>
+               <customCssClass>tabbar__button</customCssClass>
+               <textColor>25</textColor>
+            </Button>
+            <Button>
+               <id>Button4</id>
+               <label>About</label>
+               <show>Label</show>
+               <customCssClass>tabbar__button</customCssClass>
+               <textColor>25</textColor>
+            </Button>
+            <Button>
+               <id>Button5</id>
+               <label>Contacts</label>
+               <show>Label</show>
+               <customCssClass>tabbar__button</customCssClass>
+               <textColor>25</textColor>
+            </Button>
+         </controls>
+         <customCssClass>tabbar</customCssClass>
+         <selectedTabColor>26</selectedTabColor>
+         <unselectedTabColor>27</unselectedTabColor>
+      </TabBar>
+      <VerticalComposite>
+         <id>VerticalComposite1</id>
+         <controls>
+            <Label>
+               <id>Label1</id>
+               <value style="font-size: 2.5rem">Hello.</value>
+               <customCssClass>header__title</customCssClass>
+               <textColor>25</textColor>
+               <marginCustom>
+                  <marginBottom>30</marginBottom>
+               </marginCustom>
+            </Label>
+            <Label>
+               <id>Label2</id>
+               <value style="font-size: 1.1rem">I am a header text. I need to say something about that page. It would appear at the top of this page so that&apos;s kind of important.</value>
+               <customCssClass>header__text</customCssClass>
+               <textColor>25</textColor>
+               <marginCustom>
+                  <marginBottom>30</marginBottom>
+               </marginCustom>
+            </Label>
+            <HorizontalComposite>
+               <id>HorizontalComposite1</id>
+               <controls>
+                  <Button>
+                     <id>Button11</id>
+                     <label>Button6</label>
+                     <show>Icon</show>
+                     <backgroundColor>24</backgroundColor>
+                     <backgroundImage/>
+                     <flex>1</flex>
+                     <icon>Resources/icons/css3-32.png</icon>
+                     <customCssClass>button button--icon</customCssClass>
+                  </Button>
+                  <Button>
+                     <id>Button6</id>
+                     <label>Button6</label>
+                     <show>Icon</show>
+                     <backgroundColor>24</backgroundColor>
+                     <backgroundImage/>
+                     <flex>1</flex>
+                     <icon>Resources/icons/html5-32.png</icon>
+                     <customCssClass>button button--icon</customCssClass>
+                  </Button>
+                  <Button>
+                     <id>Button7</id>
+                     <label>Button6</label>
+                     <show>Icon</show>
+                     <backgroundColor>24</backgroundColor>
+                     <backgroundImage/>
+                     <flex>1</flex>
+                     <icon>Resources/icons/jsfiddle32.png</icon>
+                     <customCssClass>button button--icon</customCssClass>
+                  </Button>
+                  <Button>
+                     <id>Button8</id>
+                     <label>Button6</label>
+                     <show>Icon</show>
+                     <backgroundColor>24</backgroundColor>
+                     <backgroundImage/>
+                     <flex>1</flex>
+                     <icon>Resources/icons/rss32.png</icon>
+                     <customCssClass>button button--icon</customCssClass>
+                  </Button>
+                  <Button>
+                     <id>Button9</id>
+                     <label>Button6</label>
+                     <show>Icon</show>
+                     <backgroundColor>24</backgroundColor>
+                     <backgroundImage/>
+                     <flex>1</flex>
+                     <icon>Resources/icons/twitter32.png</icon>
+                     <customCssClass>button button--icon</customCssClass>
+                  </Button>
+                  <Button>
+                     <id>Button10</id>
+                     <label>Button6</label>
+                     <show>Icon</show>
+                     <backgroundColor>24</backgroundColor>
+                     <backgroundImage/>
+                     <flex>1</flex>
+                     <icon>Resources/icons/github32.png</icon>
+                     <customCssClass>button button--icon</customCssClass>
+                  </Button>
+               </controls>
+            </HorizontalComposite>
+         </controls>
+         <backgroundColor>24</backgroundColor>
+         <customCssClass>header</customCssClass>
+         <paddingDefault>40</paddingDefault>
+      </VerticalComposite>
+      <List>
+         <id>List1</id>
+         <listItems>
+            <listItem>
+               <title>China</title>
+               <subtitle>China</subtitle>
+               <icon>Resources/flags/China.png</icon>
+            </listItem>
+            <listItem>
+               <title>Finland</title>
+               <subtitle>Finland</subtitle>
+               <icon>Resources/flags/Finland.png</icon>
+            </listItem>
+            <listItem>
+               <title>Germany</title>
+               <subtitle>Germany</subtitle>
+               <icon>Resources/flags/Germany.png</icon>
+            </listItem>
+            <listItem>
+               <title>Russian Federation</title>
+               <subtitle>Russian Federation</subtitle>
+               <icon>Resources/flags/Russian_Federation.png</icon>
+            </listItem>
+            <listItem>
+               <title>United Kingdom</title>
+               <subtitle>United Kingdom</subtitle>
+               <icon>Resources/flags/United_Kingdom.png</icon>
+            </listItem>
+            <listItem>
+               <title>United States of America</title>
+               <subtitle>United States of America</subtitle>
+               <icon>Resources/flags/United_States_of_America.png</icon>
+            </listItem>
+         </listItems>
+         <customCssClass>list</customCssClass>
+      </List>
+      <Label>
+         <id>Label3</id>
+         <value style="font-size: 8px;">Flags: http://www.free-country-flags.com</value>
+         <textColor>26</textColor>
+      </Label>
+      <Label>
+         <id>Label4</id>
+         <value style="font-size: 8px;">Icons: http://robby-designs.deviantart.com/art/Socialcircles-Free-social-icons-circular-347921678</value>
+         <textColor>26</textColor>
+      </Label>
+   </controls>
+</page>

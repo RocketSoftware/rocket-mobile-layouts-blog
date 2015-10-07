@@ -1,0 +1,67 @@
+.button {
+	padding: 0;
+	border: none;
+}
+
+.button--icon {
+	
+}
+
+.header {
+	
+}
+
+.header__title {
+	
+}
+
+.header__text {
+	
+}
+
+.tabbar {
+	padding: 0;
+	border: none;
+}
+
+.tabbar__button {
+	
+}
+
+.tabbar .tabbar__button {
+	margin: 0 !important;
+	border: none;
+	border-left: 1px #282828 solid;
+    border-radius: 0;
+    color: #C9C9C9;
+    font-size: 1.1rem;
+    padding: 0.2rem;
+}
+
+.tabbar .tabbar__button:first-child {
+	border: none;
+}
+
+.group {
+	padding: 0;
+}
+
+.list {
+	
+}
+
+.list .list-itemimage {
+	width: 50%;
+	margin-right: 10%;
+}
+
+.list .list-item-title {
+	color: #85AFA2;
+	font-size: 1.4rem;
+	margin-bottom: 0.2rem;
+}
+
+.list .list-item-subtitle {
+	color: black;
+	font-size: 0.8rem;
+}

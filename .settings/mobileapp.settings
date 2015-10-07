@@ -1,0 +1,10 @@
+ApplicationVersion = 1.0.0
+GenerateApplicationBundle = true
+ApplicationBundle = com.rs.layouts.blog
+ApplicationIdentity = 8a9c68b3-5ccf-434e-b93d-d24fa98c7c64
+ApplicationTitle = Blog
+ApplicationVendor = com.rs.layouts
+RMABVersion = 2.2.0.v20151007-40
+LicenseManagers = {"activeLicenseManager":"Development","licenseManagers":{"Production":"","Development":"http://dor-vm-0096.rocketsoftware.com:8080/rhub"}}
+MaxGraceCount = 0
+RequireUserCredentials = false
